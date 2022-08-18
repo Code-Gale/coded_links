@@ -56,6 +56,13 @@ body, html {
     border: 1px solid #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    transition: 0.5s;
+  }
+
+  header > h1:hover {
+    color: rgb(251, 14, 255);
+    cursor: crosshair;
+    background-color: #fff;
   }
   
   ul {
@@ -73,6 +80,12 @@ body, html {
     border-radius: 10em;
     margin: 1.4em 0;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    transition: .2s;
+  }
+
+  li:hover {
+    transform: scale(1.1);
+    background-color: #fff
   }
   
   ul > li > a {
